@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/tdd-with-go/fibonacci"
 )
 
 func TestFibonacci(t *testing.T) {
