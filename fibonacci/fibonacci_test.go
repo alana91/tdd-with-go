@@ -7,5 +7,5 @@ import (
 )
 
 func TestFibonacci(t *testing.T) {
-	assert.Equal(t, nil, nil)
+	assert.Equal(t, fibonacci.Fibonacci(0), 0)
 }
