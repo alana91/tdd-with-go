@@ -10,4 +10,5 @@ import (
 func TestFibonacci(t *testing.T) {
 	assert.Equal(t, fibonacci.Fibonacci(0), 0)
 	assert.Equal(t, fibonacci.Fibonacci(1), 1)
+	assert.Equal(t, fibonacci.Fibonacci(2), 1)
 }
