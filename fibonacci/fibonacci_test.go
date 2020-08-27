@@ -12,6 +12,7 @@ func TestFibonacci(t *testing.T) {
 		0: 0,
 		1: 1,
 		2: 1,
+		3: 2,
 	}
 
 	for n, expected := range cases {
